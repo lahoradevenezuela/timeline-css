@@ -1,5 +1,5 @@
 .tl-media-content iframe[src*="youtube"] {
-  width: 350px !important;   /* Más angosto para cortar los bordes rosados */
+  width: 360px !important;   /* Más angosto para cortar los bordes rosados */
   height: 640px !important;
   max-width: 100% !important;
   margin: 0 auto !important;
