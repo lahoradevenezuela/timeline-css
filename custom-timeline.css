@@ -1,8 +1,18 @@
-/* Estilo personalizado para videos verticales en TimelineJS */
+/* Limita el ancho del contenedor que rodea el video */
+.tl-media-content {
+  max-width: 302px !important; /* mismo ancho del iframe */
+  margin: 0 auto !important;
+  background: black !important; /* opcional, para evitar degradado */
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Ajusta el iframe embebido del video */
 .tl-media-content iframe[src*="youtube"] {
-  width: 150px !important;
+  width: 302px !important;
   height: 640px !important;
   max-width: 100% !important;
   margin: 0 auto !important;
   display: block !important;
+  background-color: black;
 }
