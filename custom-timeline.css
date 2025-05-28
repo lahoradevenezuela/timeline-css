@@ -1,8 +1,15 @@
 .tl-media-content iframe[src*="youtube"] {
   width: 250px !important;   /* Más angosto para cortar los bordes rosados */
-  height: 1000px !important;
+  height: 650px !important;
   max-width: 100% !important;
   margin: 0 auto !important;
   display: block !important;
   background-color: black;
+}
+/* Fondo general para todos los slides */
+.tl-slide {
+  background-image: url('https://tusitio.github.io/carpeta/nombre-de-imagen.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
