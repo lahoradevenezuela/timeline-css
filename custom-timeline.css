@@ -1,7 +1,8 @@
+/* Ajuste del video embebido */
 .tl-media-content iframe[src*="youtube"] {
   width: 100% !important;
-  height: 65vh !important;       /* más contenido */
-  max-height: 580px !important;  /* límite superior más bajo */
+  height: 50vh !important;       /* 50% del alto de la ventana */
+  max-height: 480px !important;  /* tope absoluto más bajo */
   object-fit: cover;
   background-color: black;
   margin: 0 auto !important;
