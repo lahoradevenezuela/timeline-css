@@ -1,17 +1,23 @@
-/* Video embebido reducido al 80% */
+/* Video embebido al 90% */
 .tl-media-content iframe[src*="youtube"] {
-  width: 200px !important;
-  height: 355px !important;
+  width: 225px !important;
+  height: 400px !important;
   object-fit: cover;
   background-color: black;
   margin: 0 auto !important;
   display: block !important;
 }
 
-/* Fondo no estirado, alineado arriba */
+/* Fondo estirado a lo ancho, sin deformar verticalmente */
 .tl-slide {
-  background-image: url('https://lahoradevenezuela.github.io/timeline-css/back3.png');
-  background-size: contain;
+  background-image: url('https://lahoradevenezuela.github.io/timeline-css/fondo-timeline-v2.jpg');
+  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+/* Barra inferior más baja */
+.tl-timenav {
+  height: 80px !important;
+  max-height: 80px !important;
 }
