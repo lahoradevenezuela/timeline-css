@@ -1,12 +1,13 @@
 /* Video embebido al 90% */
 .tl-media-content iframe[src*="youtube"] {
   width: 225px !important;
-  height: 400px !important; /* 9:16 de 225px */
+  height: 400px !important; /* 9:16 exacto */
   object-fit: cover;
   background-color: black;
   margin: 0 auto !important;
   display: block !important;
 }
+
 
 
 /* Fondo estirado a lo ancho, sin deformar verticalmente */
