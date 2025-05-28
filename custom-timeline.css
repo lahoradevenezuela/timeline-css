@@ -1,5 +1,6 @@
 .tl-slide{
-  background:url('https://lahoradevenezuela.github.io/timeline-css/fondo-timeline-v2.jpg')
-             top center/100% auto
-             repeat;
-
+  /* imagen + posición + tamaño + repetición */
+  background: url('https://lahoradevenezuela.github.io/timeline-css/fondo-timeline-v2.jpg')
+              top center / 100% auto
+              repeat-x;
+}
