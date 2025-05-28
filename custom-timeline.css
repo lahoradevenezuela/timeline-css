@@ -10,14 +10,8 @@
 
 /* Fondo no estirado, alineado arriba */
 .tl-slide {
-  background-image: url('https://lahoradevenezuela.github.io/timeline-css/fondo-timeline-v2.jpg');
+  background-image: url('https://lahoradevenezuela.github.io/timeline-css/back2.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
-}
-
-/* Barra inferior más compacta */
-.tl-timenav {
-  height: 80px !important;
-  max-height: 80px !important;
 }
