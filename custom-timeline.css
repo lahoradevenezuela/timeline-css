@@ -1,19 +1,23 @@
-/* Ajuste del video embebido */
+/* Video embebido más pequeño y vertical */
 .tl-media-content iframe[src*="youtube"] {
-  width: 100% !important;
-  height: 50vh !important;       /* 50% del alto de la ventana */
-  max-height: 480px !important;  /* tope absoluto más bajo */
+  width: 250px !important;
+  height: 444px !important;
   object-fit: cover;
   background-color: black;
   margin: 0 auto !important;
   display: block !important;
 }
 
-
-/* Fondo general para todos los slides */
+/* Fondo ajustado */
 .tl-slide {
   background-image: url('https://lahoradevenezuela.github.io/timeline-css/fondo-timeline-v2.jpg');
-  background-size: 100% 100%;  /* Deforma para ajustarse a ancho y alto */
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* Barra inferior más compacta */
+.tl-timenav {
+  height: 80px !important;
+  max-height: 80px !important;
 }
